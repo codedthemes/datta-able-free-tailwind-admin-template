@@ -1,6 +1,6 @@
 # Datta Able Free Tailwind Admin Template
 
-Datta Able Free Dashboard Template made using Tailwind framework, It is a free lite version of [Datta Able Pro](https://codedthemes.com/item/datta-able-premium/) Dashboard Template that makes you fulfill your Dashboard needs.
+Datta Able Free Dashboard Template made using Tailwind framework, It is a free lite version of [Datta Able Pro](https://codedthemes.com/item/datta-able-tailwind-admin-template) Dashboard Template that makes you fulfill your Dashboard needs.
 
 ![Datta Able Free Admin Template Preview Image](https://org-public-assets.s3.us-west-2.amazonaws.com/Free-Version-Banners/GITHUB-FREE-BOOTSTRAP-REPO-Datta+able.jpg)
 
