@@ -18,7 +18,7 @@ Check out live preview of Datta Able lite version & download it.
 
 #### Preview
 
- - [Demo](http://lite.codedthemes.com/datta-able/tailwind)
+ - [Demo](https://codedthemes.com/demos/admin-templates/datta-able/tailwind/free)
 
 #### Download
 
