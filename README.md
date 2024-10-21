@@ -53,7 +53,7 @@ Datta Able Pro Admin Template is available to purchase. Visit its numerous demos
 
 Clone from Github 
 ```
-git clone https://github.com/codedthemes/datta-able-tailwind-dashboard.git
+git clone https://github.com/codedthemes/datta-able-free-tailwind-admin-template.git
 ```
 *no other dependencies required to run the Datta Able Template*
 
@@ -132,7 +132,7 @@ Please generate Github issue if you found bug in any version. We are try to be r
  - [Free Bootstrap 5 Admin Template](https://codedthemes.com/item/category/free-templates/free-bootstrap-admin-templates)
  - [Free React Dashboard Template](https://codedthemes.com/item/category/free-templates/free-react-admin-templates)
  - [Free Angular Dashboard Template](https://codedthemes.com/item/category/free-templates/free-angular-admin-templates)
- - [Premium Bootstrap & Angular Admin Template](https://codedthemes.com/item/category/templates/admin-templates/)
+ - [Premium Admin Template](https://codedthemes.com/item/category/templates/admin-templates/)
  
 ## Social Profiles
  - Dribbble [https://dribbble.com/codedthemes](https://dribbble.com/codedthemes)
