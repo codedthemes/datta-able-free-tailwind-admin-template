@@ -23,7 +23,7 @@ Check out live preview of Datta Able lite version & download it.
 #### Download
 
  - [Download from Github](https://github.com/codedthemes/datta-able-free-tailwind-admin-template.git)
- - [Download from CodedThemes]( https://codedthemes.com/item/datta-able-tailwind-lite/) & receive important notification instantly in your maiL.
+ - [Download from CodedThemes]( https://codedthemes.com/item/datta-able-free-tailwind-admin-template/) & receive important notification instantly in your maiL.
  
  ## Premium Version Preview & Download
 
@@ -125,7 +125,7 @@ Please generate Github issue if you found bug in any version. We are try to be r
 ## License
 
  - Design and Code is Copyright &copy; [CodedThemes](https://www.codedthemes.com)
- - Licensed cover under [MIT](https://github.com/codedthemes/datta-able-bootstrap-dashboard/blob/master/LICENSE)
+ - Licensed cover under [MIT](https://github.com/codedthemes/datta-able-free-tailwind-admin-template/blob/dev/LICENSE)
 
 ## Other Dashboard Products
 
