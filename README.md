@@ -80,7 +80,7 @@ Get started with a sweet set of features including:
 | -                                                                                                  | ✓ Dark/Light Mode 🌓                                              |
 | -                                                                                                  | ✓ 6+ Color Setting Option                                                |
 | -                                                                                                  | ✓ RTL                                                             |
-| ✓ MIT License                                                                                      | ✓ [Pro License](https://codedthemes.com/item/datta-able-tailwind-admin-template/) |
+| ✓ [MIT License](https://github.com/codedthemes/datta-able-free-tailwind-admin-template/blob/master/LICENSE)                                                                                      | ✓ [Pro License](https://codedthemes.com/item/datta-able-tailwind-admin-template/) |
 
 ## Documentation
 
