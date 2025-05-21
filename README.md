@@ -1,142 +1,159 @@
 # Datta Able Free Tailwind Admin Template
 
-Datta Able Free Dashboard Template made using Tailwind framework, It is a free lite version of [Datta Able Pro](https://codedthemes.com/item/datta-able-tailwind-admin-template) Dashboard Template that makes you fulfill your Dashboard needs.
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Price](https://img.shields.io/badge/price-FREE-0098f7.svg)](https://codedthemes.com/item/datta-able-free-tailwind-admin-template/)
+[![GitHub package version](https://img.shields.io/github/package-json/v/codedthemes/datta-able-free-tailwind-admin-template)](https://github.com/codedthemes/datta-able-free-tailwind-admin-template)
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-blue?style=flat-square&logo=github)](https://codedthemes.com/item/datta-able-free-tailwind-admin-template/)
+[![Join Discord](https://img.shields.io/badge/Join-Discord-5865F2?style=flat-square&logo=discord&logoColor=white)](https://discord.com/invite/p2E2WhCb6s)
+
+Datta Able is a modern and feature-rich admin template designed for seamless user experience and flexibility. It includes a wide range of pre-built components and responsive design, making it an ideal choice for various projects.
+
+✨ Support us! If you like this theme, click the ⭐ (Top right) and let it shine
 
 ![Datta Able Free Admin Template Preview Image](https://org-public-assets.s3.us-west-2.amazonaws.com/Free-Version-Banners/GITHUB-FREE-Tilwind-REPO-+Datta+Able.jpg)
 
-Datta Able Admin Template comes with variety of components like Button, Badges, Tabs, Breadcrumb, Icons, Form elements, Table, Charts & Authentication pages.
-
-The code structure is high flexible to use and modify. 
-
-Its design adapt any screen size easily even if retina screens.
-
-It is modern concept dashboard design with eye catchy colors. Wish you happy to use our product in your project.
-
-## Free Version Preview & Download
-
-Check out live preview of Datta Able lite version & download it.
-
-#### Preview
-
- - [Demo](https://codedthemes.com/demos/admin-templates/datta-able/tailwind/free)
-
-#### Download
-
- - [Download from Github](https://github.com/codedthemes/datta-able-free-tailwind-admin-template.git)
- - [Download from CodedThemes]( https://codedthemes.com/item/datta-able-free-tailwind-admin-template/) & receive important notification instantly in your maiL.
- 
- ## Premium Version Preview & Download
-
-Datta Able Pro Admin Template is available to purchase. Visit its numerous demos and make your purchase decision.
-#### Preview
- - [Demo](https://codedthemes.com/demos/admin-templates/datta-able/tailwind/default/)
-
-#### Download
-
- - [Purchase from CodedThemes](https://codedthemes.com/item/datta-able-tailwind-admin-template)
-
 ## Table of contents
 
- * [Getting Started](#getting-started)
- * [Online Documentation](#online-documentation)
- * [Build With](#build-with)
- * [Directory-structure](#directory-structure)
- * [RoadMap](#roadmap)
- * [Author](#author)
- * [Contributing](#contributing)
- * [Issues?](#issues)
- * [License](#license)
- * [Other Dashboard Products](#other-dashboard-products)
- * [Social Profiles](#social-profiles)
- 
+- [Getting Started](#getting-started)
+- [Download](#download)
+- [Why Datta Able?](#why-datta-able)
+- [What's included in Premium Version?](#whats-included-in-premium-version)
+- [Documentation](#documentation)
+- [Browser support](#browser-support)
+- [Technology Stack](#technology-stack)
+- [Other Technologies](#other-technologies)
+- 💰[Save more with Big Bundle](#save-more-with-big-bundle)💰
+- [Issues?](#issues)
+- [License](#license)
+- [Contributor](#contributor)
+- [Useful Resources](#useful-resources)
+- [Community](#community)
+- [Follow us](#follow-us)
+
 ## Getting Started
 
-Clone from Github 
+1. Clone from Github
+
 ```
 git clone https://github.com/codedthemes/datta-able-free-tailwind-admin-template.git
 ```
-*no other dependencies required to run the Datta Able Template*
 
-## Online Documentation
-
-Datta Able Lite version documentation cover in its Pro version documentation - check our [website.](https://codedthemes.gitbook.io/datta/v/datta-able-tailwind/)
-
-## Build With
-
- - [Tailwind](https://tailwindcss.com/)
- - [SASS](https://sass-lang.com/) - SCSS file not included in lite version v1.0
- 
-## Directory Structure
+2. Install packages
 
 ```
-Datta-able/
-├── assets/
-│   ├── css/
-│   │   ├── style.css
-│   ├── fonts/
-│   │   ├── feather/css/feather.css
-│   │   ├── fontawesome/css/fontawesome-all.min.css
-│   ├── images/
-│   │   ├── user/
-│   │   │   ├── avatar-1.jpg
-│   │   │   ├── avatar-2.jpg
-│   │   │   ├── ...-More
-│   │   ├── logo.png
-│   │   ├── ...-More
-│   ├── js/
-│   │   ├── pages/
-│   │   │   ├── chart.js
-│   │   │   ├── google-maps.js
-│   │   ├── script.js
-│   │   ├── ...-More
-├── index.html
-├── ...- More
+ npm i
 ```
 
-## RoadMap
+3. Run project
 
-We are continuously working in Datta Able Project and going to make it a awesome dashboard template via your support. Give us the ideas, suggestion for include more components, pages, plugins. Few of future release pages are
+```
+gulp
+```
+
+## Download
+
+- Datta Able Free
+  - [Live Preview](https://codedthemes.com/demos/admin-templates/datta-able/tailwind/free)
+  - [Download](https://codedthemes.com/item/datta-able-free-tailwind-admin-template/)
+- Datta Able Pro
+  - [Live Preview](https://codedthemes.com/demos/admin-templates/datta-able/tailwind/default/)
+  - [Download](https://codedthemes.com/item/datta-able-tailwind-admin-template)
+
+## Why Datta Able?
+
+Get started with a sweet set of features including:
+
+- Sleek and modern UI design
+- Built with Tailwind CSS
+- Fully responsive and compatible with all modern browsers
+- Well-structured code
+- Simple and comprehensive documentation guide
+
+## What's included in Premium Version?
+
+[Pro version](https://codedthemes.com/item/datta-able-tailwind-admin-template/) of Datta Able Tailwind CSS Admin Template contains features like customize with light and dark system, LTR and RTL layouts, full-width or fixed-width design, color presets and many more.
+
+| [Datta Able Free](https://codedthemes.com/item/datta-able-free-tailwind-admin-template/) | [Datta able Pro](https://codedthemes.com/item/datta-able-tailwind-admin-template)                |
+| -------------------------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------ |
+| **6** Demo pages                                                                                   | **130+** demo pages                                                |
+| -                                                                                                  | ✓ Multi-language                                                  |
+| -                                                                                                  | ✓ Dark/Light Mode 🌓                                              |
+| -                                                                                                  | ✓ 6+ Color Setting Option                                                |
+| -                                                                                                  | ✓ RTL                                                             |
+| ✓ [MIT License](https://github.com/codedthemes/datta-able-free-tailwind-admin-template/blob/master/LICENSE)                                                                                      | ✓ [Pro License](https://codedthemes.com/item/datta-able-tailwind-admin-template/) |
+
+## Documentation
+
+[Datta Able Tailwind Documentation](https://codedthemes.gitbook.io/datta/datta-able-tailwind) helps you with installation, deployment, and troubleshooting.
+
+## Browser support
+
+<img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/chrome.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/edge.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/safari.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/firefox.png" width="45" height="45" > <img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/opera.png" width="45" height="45" >
+
+## Technology Stack
+
+- Tailwind CSS
+- No Jquery
+- npm/yarn package installer
+- Gulp support 
+
+## Other Technologies
+
+| Technology                                                                                                                        | Free                                                                               | Pro                                                                       |
+| --------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/React.png" width="25" height="25"></p>   | [**Free**](https://codedthemes.com/item/datta-able-react-free-admin-template/)       | [**Pro**](https://codedthemes.com/item/datta-able-react-admin-template/)    |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Angular.png" width="30" height="30"></p> | [**Free**](https://codedthemes.com/item/datta-able-angular-lite/)     | [**Pro**](https://codedthemes.com/item/datta-able-angular/) |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/Bootstrap.png" width="25" height="25"></p>       | [**Free**](https://codedthemes.com/item/datta-able-bootstrap-lite/) | [**Pro**](https://codedthemes.com/item/datta-able-bootstrap-admin-template/)        |
+| <p align="center"><img src="https://org-public-assets.s3.us-west-2.amazonaws.com/logos/laravel.png" width="25" height="25"></p>       | - | [**Pro**](https://codedthemes.com/item/datta-able-laravel-admin-dashboard/)        |
  
-#### Layouts 
- - Horizontal version
- - Sidebar Image version
- - Introduce Live Customizer (i.e. only for demo)
+## Save more with Big Bundle
 
-#### Pages
- - Pricing
- - Login/Register pages version 2
- - User profile
- - Maintenance Pages like 404, Error Pages, Coming Soon 
-
-#### Basic & Advance Components
- - Alert, Cards, Progress, Modal
- - Datepicker, Notification, Slider
-
-*All above pages already included in Pro version. We need your support to include those pages in lite version too.*
-
-## Author
-
-Design and code is completely written by CodedThemes's design and development team. We are happy to welcome the contributors work for our all repositories.
+[![bundle-image](https://org-public-assets.s3.us-west-2.amazonaws.com/Banners/Bundle+banner.png)](https://links.codedthemes.com/jhFBJ)
 
 ## Issues
 
-Please generate Github issue if you found bug in any version. We are try to be responsive to resolve the issue.
+If you found a bug in any version, please generate a [GitHub issue](https://github.com/codedthemes/datta-able-free-tailwind-admin-template/issues). We are trying our best to resolve the issue.
 
 ## License
 
- - Design and Code is Copyright &copy; [CodedThemes](https://www.codedthemes.com)
- - Licensed cover under [MIT](https://github.com/codedthemes/datta-able-free-tailwind-admin-template/blob/dev/LICENSE)
+- Licensed under [MIT](https://github.com/codedthemes/datta-able-free-tailwind-admin-template/blob/master/LICENSE)
+- Copyright © [CodedThemes](https://codedthemes.com/)
 
-## Other Dashboard Products
+## Contributor 
 
- - [Free Bootstrap 5 Admin Template](https://codedthemes.com/item/category/free-templates/free-bootstrap-admin-templates)
- - [Free React Dashboard Template](https://codedthemes.com/item/category/free-templates/free-react-admin-templates)
- - [Free Angular Dashboard Template](https://codedthemes.com/item/category/free-templates/free-angular-admin-templates)
- - [Premium Admin Template](https://codedthemes.com/item/category/templates/admin-templates/)
+**CodedThemes Team**
+
+- https://x.com/codedthemes
+- https://github.com/codedthemes
+
+**Rakesh Nakrani**
+
+- https://x.com/rakesh_nakrani
+
+**Brijesh Dobariya**
+
+- https://x.com/dobaria_brijesh
  
-## Social Profiles
- - Dribbble [https://dribbble.com/codedthemes](https://dribbble.com/codedthemes)
- - Behance [https://www.behance.net/codedthemes](https://www.behance.net/codedthemes)
- - Facebook [https://www.facebook.com/codedthemes](https://www.facebook.com/codedthemes)
- - Twitter [https://twitter.com/codedthemes](https://twitter.com/codedthemes)
- - Instagram [https://www.instagram.com/codedthemes/](https://www.instagram.com/codedthemes/)
+## Useful Resources
+
+- [More Admin Templates From CodedThemes](https://codedthemes.com/item/category/admin-templates/)
+- [Freebies From CodedThemes](https://codedthemes.com/item/category/free-templates/)
+- [Big Bundles](https://codedthemes.com/item/big-bundle/)
+- [Figma UI Kits](https://codedthemes.com/item/category/templates/figma/)
+- [Affiliate Program](https://codedthemes.com/affiliate/)
+- [Blogs](https://blog.codedthemes.com/)
+
+## Community
+
+- 👥Follow [@codedthemes](https://x.com/codedthemes)
+- 🔗Join [Discord](https://discord.com/invite/p2E2WhCb6s)
+- 🔔Subscribe to [Codedtheme Blogs](https://blog.codedthemes.com/)
+
+## Follow Us
+
+- [Twitter](https://twitter.com/codedthemes) 🐦
+- [Dribbble](https://dribbble.com/codedthemes) 🏀
+- [Github](https://github.com/codedthemes) 🐙
+- [LinkedIn](https://www.linkedin.com/company/codedthemes/) 💼
+- [Instagram](https://www.instagram.com/codedthemes/) 📷
+- [Facebook](https://www.facebook.com/codedthemes) 🟦
