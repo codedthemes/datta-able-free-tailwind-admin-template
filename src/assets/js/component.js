@@ -5,7 +5,9 @@ Template Name: Datta Able - Tailwind Admin Template
 Author: CodedThemes
 Support: https://codedthemes.support-hub.io/
 File: component.js
-Description: 
+Description:  this file will contains behavior, properties, 
+              functionality and interactions of a small module of ui element 
+              which used to build a theme layout.
 =========================================================================
 =========================================================================
 */

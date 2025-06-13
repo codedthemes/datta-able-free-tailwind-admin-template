@@ -1,0 +1,62 @@
+@layer{
+    /* Swal2 Popup */
+  .swal2-popup {
+    @apply rounded-xl !bg-theme-cardbg dark:!bg-themedark-cardbg !text-theme-bodycolor dark:!text-themedark-bodycolor;
+  }
+
+  /* Swal2 Styled Button */
+  button.swal2-styled {
+    @apply inline-block py-2 px-4 text-center border !rounded-[20px] !border-transparent !bg-transparent !text-base font-medium transition-all duration-200 ease-in-out focus:!shadow-none;
+  }
+
+  /* Swal2 Icons */
+  .swal2-icon.swal2-error {
+    @apply !border-danger-500/15 !text-danger-500;
+  }
+
+  .swal2-icon.swal2-error [class^="swal2-x-mark-line"] {
+    @apply !bg-danger-500;
+  }
+
+  .swal2-icon.swal2-warning {
+    @apply !border-warning-500/15 !text-warning-500;
+  }
+
+  .swal2-icon.swal2-info {
+    @apply !border-info-500/15 !text-info-500;
+  }
+
+  .swal2-icon.swal2-question {
+    @apply !border-purple-500/15 !text-purple-500;
+  }
+
+  .swal2-icon.swal2-success {
+    @apply !border-success-500/15 !text-success-500;
+  }
+
+  .swal2-icon.swal2-success .swal2-success-ring {
+    @apply !border-success-500/30;
+  }
+
+  .swal2-icon.swal2-success [class^="swal2-success-line"] {
+    @apply !bg-success-500;
+  }
+
+  /* Swal2 Actions */
+  .swal2-actions {
+    @apply gap-4;
+  }
+
+  /* Swal2 Styled Confirm, Deny, and Cancel */
+  .swal2-styled.swal2-confirm {
+    @apply !bg-primary-500 text-white hover:!bg-primary-600 active:!bg-primary-700 focus:!bg-primary-600;
+  }
+
+  .swal2-styled.swal2-deny {
+    @apply !bg-danger-500 text-white hover:!bg-danger-600 active:!bg-danger-700 focus:!bg-danger-600;
+  }
+
+  .swal2-styled.swal2-cancel {
+    @apply !bg-secondary-500 text-white hover:!bg-secondary-600 active:!bg-secondary-700 focus:!bg-secondary-600;
+  }
+}

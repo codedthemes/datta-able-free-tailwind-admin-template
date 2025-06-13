@@ -1,0 +1,25 @@
+@layer{
+  [data-pc-layout="layout-3"] .pc-sidebar .navbar-content:not([class*="bg-"]) {
+    @apply [background:var(--theme-bg-1)];
+  }
+  
+  [data-pc-layout="layout-3"] .pc-sidebar .pc-navbar .pc-caption {
+    @apply hidden;
+  }
+  
+  [data-pc-layout="layout-3"] .pc-sidebar .pc-navbar .pc-link {
+    @apply text-white;
+  }
+  [data-pc-layout="layout-3"] .pc-sidebar .pc-navbar .pc-micon {
+    @apply align-baseline;
+  }
+  
+  [data-pc-layout="layout-3"] .pc-sidebar .pc-navbar > .pc-item > .pc-link {
+    @apply p-[20px_15px];
+  }
+  
+  [data-pc-layout="layout-3"] .pc-sidebar .pc-navbar > .pc-item.pc-trigger,
+  [data-pc-layout="layout-3"] .pc-sidebar .pc-navbar > .pc-item.active {
+    background-color: rgba(0,0,0,0.04);
+  } 
+}

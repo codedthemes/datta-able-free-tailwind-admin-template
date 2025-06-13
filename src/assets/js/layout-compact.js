@@ -1,3 +1,16 @@
+/**
+=========================================================================
+=========================================================================
+Template Name: Datta Able - Tailwind Admin Template
+Author: CodedThemes
+Support: https://codedthemes.support-hub.io/
+File: layout-compact.js
+Description:  this file will contains defining code for build compact layouts
+              and handle funcnality of a comapct layout in theme.
+=========================================================================
+=========================================================================
+*/
+
 'use strict';
 (function () {
   document.getElementsByTagName('html')[0].setAttribute('data-pc-layout', 'compact');
@@ -17,13 +30,7 @@
   // add tooltip and open/close it's submenu list for first level icon
   var pc_link_click = document.querySelectorAll('.pc-navbar > li:not(.pc-caption)');
   for (var i = 0; i < pc_link_click.length; i++) {
-    // for tooltip
-    // new bootstrap.Tooltip(pc_link_click[i], {
-    //   trigger: 'hover',
-    //   placement: 'right',
-    //   title: pc_link_click[i].children[0].children[1].innerHTML
-    // });
-
+    
     pc_link_click[i].addEventListener('click', function (event) {
       document.querySelector('.pc-sidebar').classList.add('pc-compact-submenu-active');
       document.querySelector('body').classList.add('pc-compact-submenu-active');
