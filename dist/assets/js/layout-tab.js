@@ -1,3 +1,15 @@
+/**
+=========================================================================
+=========================================================================
+Template Name: Datta Able - Tailwind Admin Template
+Author: CodedThemes
+Support: https://codedthemes.support-hub.io/
+File: layout-tab.js
+Description:  this file will contains defining code for build tab layouts
+              and handle funcnality of a tab layout in theme.
+=========================================================================
+=========================================================================
+*/
 'use strict';
 (function () {
   document.getElementsByTagName('html')[0].setAttribute('data-pc-layout', 'tab');

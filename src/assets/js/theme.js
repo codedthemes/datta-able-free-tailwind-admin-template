@@ -5,6 +5,9 @@ Template Name: Datta Able - Tailwind Admin Template
 Author: CodedThemes
 Support: https://codedthemes.support-hub.io/
 File: themes.js
+Description:  this file will contains overall theme setup and handle
+              behavior of live custumizer like Dark/Light, LTR/RTL,
+              preset color, theme layout, theme contarast etc.
 =========================================================================
 =========================================================================
 */

@@ -1,3 +1,16 @@
+/**
+=========================================================================
+=========================================================================
+Template Name: Datta Able - Tailwind Admin Template
+Author: CodedThemes
+Support: https://codedthemes.support-hub.io/
+File: layout-horizontal.js
+Description:  this file will contains defining code for build horizontal layouts
+              and handle funcnality of a horizontal layout in theme.
+=========================================================================
+=========================================================================
+*/
+
 'use strict';
 
 (function () {

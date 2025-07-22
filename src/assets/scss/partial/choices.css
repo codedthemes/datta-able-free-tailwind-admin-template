@@ -1,0 +1,79 @@
+@layer {
+  .choices {
+    @apply relative focus:outline-none focus-visible:outline-none;
+  }
+
+  .choices [hidden] {
+    @apply hidden;
+  }
+
+  .choices[data-type*='select-multiple'] .choices__button,
+  .choices[data-type*='text'] .choices__button {
+    @apply relative inline-block my-0 ml-2 -mr-1 pl-4 w-2 indent-[-9999px] leading-none opacity-75 border-l border-white bg-center bg-[length:8px_8px] bg-no-repeat;
+    background-image: url("data:image/svg+xml,%3Csvg fill='none' height='16' viewBox='0 0 16 16' width='16' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M4 4L12 12M12 4L4 12' stroke='white' stroke-linecap='round' stroke-linejoin='round' stroke-width='2'/%3E%3C/svg%3E");
+  }
+
+  .choices.is-disabled .choices__inner,
+  .choices.is-disabled .choices__input {
+    @apply select-none opacity-50;
+  }
+
+  .choices[data-type*='select-one'] {
+    @apply relative;
+  }
+
+  .choices[data-type*='select-one']::after {
+    @apply absolute right-[11.5px] top-1/2 w-0 h-0 border-[5px];
+    content: '';
+    border-color: #131920 transparent transparent transparent;
+  }
+
+  .dark .choices[data-type*='select-one']::after {
+    border-color: #bfbfbf transparent transparent transparent;
+  }
+
+  .choices[data-type*='select-one'] .choices__input {
+    @apply select-none opacity-50;
+  }
+
+  .choices__list {
+    @apply m-0 pl-0 list-none;
+  }
+
+  .choices__input {
+    @apply align-baseline mb-0 border-0 mx-2 rounded-none py-1 pl-0.5 pr-0 max-w-full focus:outline-0 bg-transparent;
+  }
+
+  .choices__inner {
+    @apply inline-block align-top w-full px-[7.5px] pt-[7.5px] pb-[3.75px] min-h-[44px] rounded-lg border border-theme-border dark:border-themedark-border bg-theme-cardbg dark:bg-themedark-cardbg focus:outline-none focus-visible:outline-none;
+  }
+
+  .choices__list--single {
+    @apply inline-block w-full py-1 pl-1 pr-4;
+  }
+
+  .choices__list--multiple {
+    @apply inline-block;
+  }
+
+  .choices__list--multiple .choices__item {
+    @apply inline-block align-middle rounded-lg py-1 px-2.5 text-sm font-semibold mr-1 mb-1 bg-primary-500 text-white border-primary-500;
+  }
+
+  .choices__list--dropdown {
+    @apply invisible absolute w-full top-full z-10 -mt-px border border-theme-border dark:border-themedark-border bg-theme-cardbg dark:bg-themedark-cardbg;
+  }
+
+  .choices__list--dropdown.is-active {
+    @apply visible;
+  }
+
+  .choices__list--dropdown .choices__item {
+    @apply relative p-2.5 text-base;
+  }
+
+  .choices__list--dropdown .choices__list {
+    @apply relative py-2.5 px-3 max-h-[300px] overflow-auto;
+  }
+
+}
