@@ -33,7 +33,7 @@ const navbar_caption_theme = ''; // [ '',preset-1 to preset-10 ]
 const navbar_image_theme = ''; // [ '',preset-1 to preset-6 ]
 const nav_dropdown_icon_theme = ''; // [ '',preset-1 to preset-5 ]
 const nav_dropdown_link_icon_theme = ''; // [ '',preset-1 to preset-6 ]
-const version = 'v1.0';
+const version = 'v1.1.0';
 if (rtl_layout == "true") {
   var rtltemp = "rtl"
 } else {
@@ -111,7 +111,7 @@ gulp.task('tailwind-scss', function () {
   return gulp
     .src(path.src.css)
     .pipe(sass())
-    .pipe(postcss(tailwindcss('./tailwind.config.js')))
+    .pipe(postcss())
     .pipe(gulp.dest(path.destination.css));
 });
 //  [ scss compiler ] end
@@ -122,12 +122,16 @@ gulp.task('build-node-modules', function () {
     js: [
       'node_modules/@popperjs/core/dist/umd/popper.min.js',
       'node_modules/simplebar/dist/simplebar.min.js',
-      'node_modules/feather-icons/dist/feather.min.js',
-      'node_modules/clipboard/dist/clipboard.min.js'
+      'node_modules/apexcharts/dist/apexcharts.min.js',
+      'node_modules/jsvectormap/dist/jsvectormap.min.js',
+      'node_modules/jsvectormap/dist/maps/world.js',
+      'node_modules/jsvectormap/dist/maps/world-merc.js',
+
     ],
     css: [
       'node_modules/simplebar/dist/simplebar.min.css',
       'node_modules/animate.css/animate.min.css',
+      'node_modules/jsvectormap/dist/jsvectormap.min.css',
     ]
   };
   npmlodash(required_libs).forEach(function (assets, type) {
@@ -172,6 +176,7 @@ gulp.task('watch', function () {
   gulp.watch('tailwind.config.js', gulp.series('tailwind-scss')).on('change', browsersync.reload);
   gulp.watch('tailwind_plugins/**/*.js', gulp.series('tailwind-scss')).on('change', browsersync.reload);
   gulp.watch('src/assets/scss/**/*.scss', gulp.series('tailwind-scss')).on('change', browsersync.reload);
+  gulp.watch('src/assets/scss/**/*.css', gulp.series('tailwind-scss')).on('change', browsersync.reload);
   gulp.watch('src/assets/js/**/*.js', gulp.series('build-js')).on('change', browsersync.reload);
   gulp.watch('src/html/**/*.html', gulp.series('build-html')).on('change', browsersync.reload);
   gulp.watch('src/html/**/*.html', gulp.series('tailwind-scss')).on('change', browsersync.reload);
@@ -195,8 +200,7 @@ gulp.task('tailwind-min-scss', function () {
   // main style css
   return gulp.src(path.src.css)
   .pipe(sass())
-  .pipe(postcss(tailwindcss('./tailwind.config.js'), autoprefixer()))
-  // .pipe(cssmin())
+  .pipe(postcss())
   .pipe(gulp.dest(path.destination.css));
 });
 //  [ css minify ] end
@@ -219,11 +223,6 @@ gulp.task('min-html', function () {
         prefix: '@@',
         basepath: '@file',
         indent: true
-      })
-    )
-    .pipe(
-      htmlmin({
-        collapseWhitespace: true
       })
     )
     .pipe(gulp.dest(path.destination.html));

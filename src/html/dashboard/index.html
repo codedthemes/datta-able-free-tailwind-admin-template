@@ -4,6 +4,8 @@
 
   <head>
     @@include('../layouts/head-page-meta.html', {'title': 'Home'})
+    <!-- map-vector css -->
+    <link rel="stylesheet" href="../assets/css/plugins/jsvectormap.min.css" />
     @@include('../layouts/head-css.html')
   </head>
   <!-- [Head] end -->
@@ -26,7 +28,7 @@
               <div class="card-body">
                 <div class="flex items-center justify-between gap-3 flex-wrap">
                   <h3 class="font-light flex items-center mb-0">
-                    <i class="feather icon-arrow-up text-success-500 text-[30px] mr-1.5"></i>
+                    <i class="ph ph-arrow-up text-success-500 text-[30px] mr-1.5"></i>
                     $ 249.95
                   </h3>
                   <p class="mb-0">67%</p>
@@ -46,7 +48,7 @@
               <div class="card-body">
                 <div class="flex items-center justify-between gap-3 flex-wrap">
                   <h3 class="font-light flex items-center mb-0">
-                    <i class="feather icon-arrow-down text-danger-500 text-[30px] mr-1.5"></i>
+                    <i class="ph ph-arrow-down text-danger-500 text-[30px] mr-1.5"></i>
                     $ 2.942.32
                   </h3>
                   <p class="mb-0">36%</p>
@@ -66,7 +68,7 @@
               <div class="card-body">
                 <div class="flex items-center justify-between gap-3 flex-wrap">
                   <h3 class="font-light flex items-center mb-0">
-                    <i class="feather icon-arrow-up text-success-500 text-[30px] mr-1.5"></i>
+                    <i class="ph ph-arrow-up text-success-500 text-[30px] mr-1.5"></i>
                     $8.638.32
                   </h3>
                   <p class="mb-0">80%</p>
@@ -78,12 +80,61 @@
               </div>
             </div>
           </div>
+          <div class="col-span-12 xl:col-span-8 md:col-span-6">
+            <div class="card">
+              <div class="card-header">
+                <h5>Users from United States</h5>
+              </div>
+              <div class="card-body">
+                <div id="world-low" class="set-map" style="height: 450px"> </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-span-12 xl:col-span-4 md:col-span-6">
+            <div class="card bg-primary-500 mb-4">
+              <div class="card-header !border-b-0">
+                <h5 class="text-white">Earnings</h5>
+              </div>
+              <div class="card-body" style="padding: 0 25px">
+                <div class="earning-text mb-4">
+                  <h3 class="mb-3 text-white font-light">$ 4295.36 <i class="ph ph-arrow-up"></i>
+                  </h3>
+                  <span class="uppercase text-white block">Total Earnings</span>
+                </div>
+                <div id="Widget-line-chart" class="WidgetlineChart2 ChartShadow"></div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-body border-b border-theme-border dark:border-themedark-border">
+                <div class="flex items-center gap-6">
+                  <div class="shrink-0">
+                    <i class="ph ph-lightbulb-filament text-[30px] text-success-500"></i>
+                  </div>
+                  <div class="grow">
+                    <h3 class="font-light">235</h3>
+                    <span class="block uppercase">total ideas</span>
+                  </div>
+                </div>
+              </div>
+              <div class="card-body">
+                <div class="flex items-center gap-6">
+                  <div class="shrink-0">
+                    <i class="ph ph-map-pin-line text-[30px] text-primary-500"></i>
+                  </div>
+                  <div class="grow">
+                    <h3 class="font-light">26</h3>
+                    <span class="block uppercase">total locations</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-span-12 xl:col-span-4">
             <div class="card card-social">
               <div class="card-body border-b border-theme-border dark:border-themedark-border">
                 <div class="flex items-center justify-center">
                   <div class="shrink-0">
-                    <i class="fab fa-facebook-f text-primary-500 text-[36px]"></i>
+                    <i class="ti ti-brand-facebook-filled text-primary-500 text-[36px]"></i>
                   </div>
                   <div class="grow ltr:text-right rtl:text-left">
                     <h3 class="mb-2">12,281</h3>
@@ -114,7 +165,7 @@
               <div class="card-body border-b border-theme-border dark:border-themedark-border">
                 <div class="flex items-center justify-center">
                   <div class="shrink-0">
-                    <i class="fab fa-twitter text-primary-500 text-[36px]"></i>
+                    <i class="ti ti-brand-twitter-filled text-primary-500 text-[36px]"></i>
                   </div>
                   <div class="grow ltr:text-right rtl:text-left">
                     <h3 class="mb-2">11,200</h3>
@@ -145,7 +196,7 @@
               <div class="card-body border-b border-theme-border dark:border-themedark-border">
                 <div class="flex items-center justify-center">
                   <div class="shrink-0">
-                    <i class="fab fa-google-plus-g text-danger-500 text-[36px]"></i>
+                    <i class="ti ti-brand-google-filled text-danger-500 text-[36px]"></i>
                   </div>
                   <div class="grow ltr:text-right rtl:text-left">
                     <h3 class="mb-2">10,500</h3>
@@ -180,17 +231,17 @@
                 <div class="flex items-center justify-between gap-1 mb-5">
                   <h2 class="font-light flex items-center m-0">
                     4.7
-                    <i class="fas fa-star text-[10px] ml-2.5 text-warning-500"></i>
+                    <i class="ti ti-star-filled text-[10px] ml-2.5 text-warning-500"></i>
                   </h2>
                   <h6 class="flex items-center m-0">
                     0.4
-                    <i class="fas fa-caret-up text-success text-[22px] ml-2.5"></i>
+                    <i class="ti ti-caret-up-filled text-success text-[22px] ml-2.5"></i>
                   </h6>
                 </div>
 
                 <div class="flex items-center justify-between gap-2 mb-2">
                   <h6 class="flex items-center gap-1">
-                    <i class="fas fa-star text-[10px] mr-2.5 text-warning-500"></i>
+                    <i class="ti ti-star-filled text-[10px] mr-2.5 text-warning-500"></i>
                     5
                   </h6>
                   <h6>384</h6>
@@ -205,7 +256,7 @@
 
                 <div class="flex items-center justify-between gap-2 mb-2">
                   <h6 class="flex items-center gap-1">
-                    <i class="fas fa-star text-[10px] mr-2.5 text-warning-500"></i>
+                    <i class="ti ti-star-filled text-[10px] mr-2.5 text-warning-500"></i>
                     4
                   </h6>
                   <h6>145</h6>
@@ -220,7 +271,7 @@
 
                 <div class="flex items-center justify-between gap-2 mb-2">
                   <h6 class="flex items-center gap-1">
-                    <i class="fas fa-star text-[10px] mr-2.5 text-warning-500"></i>
+                    <i class="ti ti-star-filled text-[10px] mr-2.5 text-warning-500"></i>
                     3
                   </h6>
                   <h6>24</h6>
@@ -235,7 +286,7 @@
 
                 <div class="flex items-center justify-between gap-2 mb-2">
                   <h6 class="flex items-center gap-1">
-                    <i class="fas fa-star text-[10px] mr-2.5 text-warning-500"></i>
+                    <i class="ti ti-star-filled text-[10px] mr-2.5 text-warning-500"></i>
                     2
                   </h6>
                   <h6>1</h6>
@@ -250,7 +301,7 @@
 
                 <div class="flex items-center justify-between gap-2 mb-2">
                   <h6 class="flex items-center gap-1">
-                    <i class="fas fa-star text-[10px] mr-2.5 text-warning-500"></i>
+                    <i class="ti ti-star-filled text-[10px] mr-2.5 text-warning-500"></i>
                     1
                   </h6>
                   <h6>0</h6>
@@ -284,7 +335,7 @@
                         </td>
                         <td>
                           <h6 class="text-muted">
-                            <i class="fas fa-circle text-success text-[10px] ltr:mr-4 rtl:ml-4"></i>
+                            <i class="ti ti-circle-filled text-success text-[10px] ltr:mr-4 rtl:ml-4"></i>
                             11 MAY 12:56
                           </h6>
                         </td>
@@ -303,7 +354,7 @@
                         </td>
                         <td>
                           <h6 class="text-muted">
-                            <i class="fas fa-circle text-danger text-[10px] ltr:mr-4 rtl:ml-4"></i>
+                            <i class="ti ti-circle-filled text-danger text-[10px] ltr:mr-4 rtl:ml-4"></i>
                             11 MAY 10:35
                           </h6>
                         </td>
@@ -322,7 +373,7 @@
                         </td>
                         <td>
                           <h6 class="text-muted">
-                            <i class="fas fa-circle text-success text-[10px] ltr:mr-4 rtl:ml-4"></i>
+                            <i class="ti ti-circle-filled text-success text-[10px] ltr:mr-4 rtl:ml-4"></i>
                             9 MAY 17:38
                           </h6>
                         </td>
@@ -341,7 +392,7 @@
                         </td>
                         <td>
                           <h6 class="text-muted f-w-300">
-                            <i class="fas fa-circle text-danger text-[10px] ltr:mr-4 rtl:ml-4"></i>
+                            <i class="ti ti-circle-filled text-danger text-[10px] ltr:mr-4 rtl:ml-4"></i>
                             19 MAY 12:56
                           </h6>
                         </td>
@@ -360,7 +411,7 @@
                         </td>
                         <td>
                           <h6 class="text-muted">
-                            <i class="fas fa-circle text-success text-[10px] ltr:mr-4 rtl:ml-4"></i>
+                            <i class="ti ti-circle-filled text-success text-[10px] ltr:mr-4 rtl:ml-4"></i>
                             21 July 12:56
                           </h6>
                         </td>
@@ -380,7 +431,16 @@
       </div>
     </div>
     <!-- [ Main Content ] end -->
-    @@include('../layouts/footer-block.html') 
+    @@include('../layouts/footer-block.html') @@include('../layouts/customizer.html')
+    <!-- [Page Specific JS] start -->
+    <script src="../assets/js/plugins/apexcharts.min.js"></script>
+    <script src="../assets/js/plugins/jsvectormap.min.js"></script>
+    <script src="../assets/js/plugins/world.js"></script>
+
+    <!-- custom widgets js -->
+    <script src="../assets/js/widgets/world-low.js"></script>
+    <script src="../assets/js/widgets/Widget-line-chart.js"></script>
+    <!-- [Page Specific JS] end -->
     @@include('../layouts/footer-js.html')
   </body>
   <!-- [Body] end -->

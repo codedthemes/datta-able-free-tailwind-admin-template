@@ -5,6 +5,9 @@ Template Name: Datta Able - Tailwind Admin Template
 Author: CodedThemes
 Support: https://codedthemes.support-hub.io/
 File: script.js
+Description:  this file will contains behavior, properties, 
+              functionality and interactions of a small module of ui element 
+              which used to build a theme layout.
 =========================================================================
 =========================================================================
 */
@@ -117,9 +120,6 @@ document.addEventListener('DOMContentLoaded', menu_click);
 
 // Initialize various components on DOMContentLoaded
 document.addEventListener('DOMContentLoaded', function () {
-  // feather icon start
-  feather.replace();
-  // feather icon end
 
   // Check for specific layout and add scrollbar if necessary(add scrollbar from 1024 screen size in horizontal layout)
   if (document.querySelector('html').hasAttribute('data-pc-layout')) {

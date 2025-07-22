@@ -1,0 +1,52 @@
+@layer{
+  /* Notifier Container */
+  .notifier-container {
+    @apply w-[400px] max-w-[98%] !z-[1027] ltr:right-1 rtl:!left-1 rtl:!right-auto;
+  }
+
+  /* Notifier */
+  .notifier {
+    @apply p-5 rounded border-secondary-500 !bg-theme-cardbg dark:!bg-themedark-cardbg;
+  }
+
+  /* Notifier Title */
+  .notifier .notifier-title {
+    @apply font-semibold leading-none text-lg mb-0;
+  }
+
+  /* Notifier Body */
+  .notifier .notifier-body {
+    @apply text-base mb-0;
+  }
+
+  /* Notifier Image */
+  .notifier .notifier-img img {
+    @apply w-10 h-10;
+  }
+
+  /* Notifier Close Button */
+  .notifier .notifier-close {
+    @apply hover:text-danger-500 focus:text-danger-500 hover:!bg-transparent focus:!bg-transparent ltr:right-1 rtl:!left-1 rtl:!right-auto;
+  }
+
+  /* Info Notification */
+  .notifier.info {
+    @apply border-info-500;
+  }
+
+  /* Success Notification */
+  .notifier.success {
+    @apply border-success-500;
+  }
+
+  /* Danger Notification */
+  .notifier.danger {
+    @apply border-danger-500;
+  }
+
+  /* Warning Notification */
+  .notifier.warning {
+    @apply border-warning-500;
+  }
+
+}

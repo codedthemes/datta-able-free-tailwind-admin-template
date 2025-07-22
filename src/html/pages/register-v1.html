@@ -10,17 +10,17 @@
 
   <body>
     @@include('../layouts/loader.html')
-    <div class="auth-main relative">
+    <div class="auth-main relative overflow-x-hidden overflow-y-auto">
       <div class="auth-wrapper v1 flex items-center w-full h-full min-h-screen">
-        <div class="auth-form flex items-center justify-center grow flex-col min-h-screen relative p-6 ">
+        <div class="auth-form flex items-center justify-center grow flex-col min-h-screen relative px-6 py-3">
           <div class="w-full max-w-[350px] relative">
             <div class="auth-bg ">
-              <span class="absolute top-[-100px] right-[-100px] w-[300px] h-[300px] block rounded-full bg-theme-bg-1 animate-[floating_7s_infinite]"></span>
+              <span class="absolute top-[10px] right-[-100px] w-[300px] h-[300px] block rounded-full bg-theme-bg-1 animate-[floating_7s_infinite]"></span>
               <span class="absolute top-[150px] right-[-150px] w-5 h-5 block rounded-full bg-primary-500 animate-[floating_9s_infinite]"></span>
               <span class="absolute left-[-150px] bottom-[150px] w-5 h-5 block rounded-full bg-theme-bg-1 animate-[floating_7s_infinite]"></span>
-              <span class="absolute left-[-100px] bottom-[-100px] w-[300px] h-[300px] block rounded-full bg-theme-bg-2 animate-[floating_9s_infinite]"></span>
+              <span class="absolute left-[-100px] bottom-[10px] w-[300px] h-[300px] block rounded-full bg-theme-bg-2 animate-[floating_9s_infinite]"></span>
             </div>
-            <div class="card sm:my-12  w-full shadow-none">
+            <div class="card sm:my-2 w-full shadow-none">
               <div class="card-body !p-10">
                 <div class="text-center mb-8">
                   <a href="#"><img src="../assets/images/logo-dark.svg" alt="img" class="mx-auto auth-logo"/></a>
@@ -63,7 +63,7 @@
       </div>
     </div>
     <!-- [ Main Content ] end -->
-    @@include('../layouts/footer-js.html') 
+    @@include('../layouts/footer-js.html') @@include('../layouts/customizer.html')
   </body>
   <!-- [Body] end -->
 </html>

@@ -1,0 +1,122 @@
+@layer{
+  /* Slider base styles */
+  .slider.slider-horizontal .slider-handle.triangle,
+  .slider.slider-horizontal .slider-tick.triangle {
+    @apply border-b-primary-500;
+  }
+
+  .slider.slider-vertical .slider-handle.triangle,
+  .slider.slider-vertical .slider-tick.triangle {
+    @apply border-l-primary-500 border-r-primary-500;
+  }
+
+  .slider.slider-disabled .slider-handle {
+    @apply bg-gradient-to-b from-[#dfdfdf] to-[#bebebe] bg-repeat-x;
+  }
+
+  .slider.slider-disabled .slider-track {
+    @apply bg-gradient-to-b from-[#f8f9fa] to-[#f8f9fa] bg-repeat-x dark:bg-themedark-bodybg;
+  }
+
+  /* Track styles */
+  .slider-track {
+    @apply bg-gradient-to-b from-[#f8f9fa] to-[#f8f9fa] bg-repeat-x dark:!bg-themedark-bodybg;
+  }
+
+  /* Selection styles */
+  .slider-selection {
+    @apply bg-none bg-primary-300;
+  }
+
+  .slider-selection.tick-slider-selection {
+    @apply bg-none bg-primary-200;
+  }
+
+  /* Handle styles */
+  .slider-handle {
+    @apply bg-none bg-primary-500;
+  }
+
+  /* Tick styles */
+  .slider-tick {
+    @apply bg-gradient-to-b from-[#f9f9f9] to-[#f5f5f5] bg-repeat-x;
+  }
+
+  .slider-tick.in-selection {
+    @apply bg-none bg-primary-200;
+  }
+
+  /* Tooltip styles */
+  .slider .tooltip {
+    @apply absolute max-w-48 z-[1024];
+  }
+
+  .slider .tooltip .tooltip-inner {
+    @apply relative py-1 px-2 -left-2/4 bg-dark-500 rounded-lg text-xs text-white whitespace-nowrap;
+  }
+
+  .slider .tooltip:not(.show) {
+    @apply hidden;
+  }
+
+  /* Slider handle custom */
+  .slider-handle.custom {
+    @apply bg-transparent before:content-['\\2605'] before:text-[#726204] before:leading-[15px] before:text-[28px];
+  }
+
+  /* Color-specific slider styles */
+  #RC .slider-selection {
+    @apply bg-[#ff8282];
+  }
+
+  #RC .slider-handle {
+    @apply bg-red-500;
+  }
+
+  #GC .slider-selection {
+    @apply bg-[#478f3b];
+  }
+
+  #GC .slider-handle {
+    @apply bg-green-500;
+  }
+
+  #BC .slider-selection {
+    @apply bg-[#8283ff];
+  }
+
+  #BC .slider-handle {
+    @apply border-b-blue-500;
+  }
+
+  /* Slider range highlight */
+  #slider12a .slider-track-high,
+  #slider12c .slider-track-high {
+    @apply bg-success-500;
+  }
+
+  #slider12b .slider-track-low {
+    @apply bg-danger-500;
+  }
+
+  #slider12c .slider-track-low {
+    @apply bg-danger-500;
+  }
+
+  #slider12c .slider-selection {
+    @apply bg-warning-500;
+  }
+
+  #slider22 .slider-rangeHighlight {
+    @apply bg-red-500;
+  }
+
+  #slider22 .slider-rangeHighlight.category1 {
+    @apply bg-orange-500;
+  }
+
+  #slider22 .slider-rangeHighlight.category2 {
+    @apply bg-green-500;
+  }
+
+}
